@@ -1,0 +1,21 @@
+
+
+
+version: 2
+
+
+
+rewrites:
+
+  - source: /(.*)(\.html)$/
+
+    destination: public/$1$2
+
+
+
+build:
+
+  command: npm run build
+
+
+
